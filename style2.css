@@ -9,6 +9,8 @@
     main .slider{
         display: grid;
         grid-template-columns:repeat(1,1fr);
+        margin-right: 60px;
+
        
     }
     main .slider .slider-text{
@@ -36,6 +38,7 @@
             grid-template-columns: repeat(1,1fr);
            
             padding-left: 15%;
+            margin-left: 10px;
         
     }
     footer{
@@ -53,6 +56,7 @@
         main .slider{
             display: grid;
             grid-template-columns:repeat(1,1fr);
+           
            
         }
         main .slider .slider-text{
