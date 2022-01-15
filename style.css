@@ -23,8 +23,8 @@ main{
     padding:50px 20px;
 }
 .slider-text h1{
-    font-size: 45px;
-    font-weight: 900;
+    font-size: 40fpx;
+    font-weight: 700;
     color:black;
 }
 .slider-text p{
@@ -39,14 +39,22 @@ main{
     width: 198px;
     padding: 12px;
     font-size: 15px;
-    font-weight: bold;
-    color:white;
+    font-weight: 700;
+    color:rgba(241, 220, 220, 0.973);
     background-color: brown;
     border-radius: 50px;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+.slider-text button:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+    background-color: tomato;
+    color: white;
+
 }
 .slider-text button .fas.fa-arrow-right {
     padding-left: 5px;
@@ -62,7 +70,11 @@ main{
     width: 475px;
    background: url(images/Circle-design.svg);
 }
-
+.slider-img:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+    
+}
 
 /* populer-colection */
 
@@ -97,11 +109,19 @@ main{
     box-shadow: 1px 9px 16px 9px gainsboro;
     border-radius: 5px;
     margin-bottom:25px;
+    overflow: hidden;
+   
 }
+
 .product-img{
     width: 283px;
     height: 256px;
-    padding-bottom: -6px;
+     padding-left: 3px;
+    
+}
+.product:hover .product-img{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
 }
 .product-info h4{
     color:#18191F;
@@ -111,6 +131,7 @@ main{
     color:#18191F;
     font-size: 18px;
 }
+
 .star{
     display: flex;
     margin-bottom:8px;
@@ -125,6 +146,7 @@ main{
     font-size: 14px;
     color:#5E6366;
     font-weight: bold;
+    margin-left: 20px;
 }
 .product-info p{
     font-size: 15px;
